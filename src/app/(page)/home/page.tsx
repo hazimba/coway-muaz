@@ -1,8 +1,7 @@
-import SplitSection from "@/components/SplitSection";
+import Contact from "./Contact";
 import Product from "./Product";
 import Profile from "./Profile";
 import Promotion from "./Promotion";
-import Contact from "./Contact";
 
 const Home = () => {
   return (
