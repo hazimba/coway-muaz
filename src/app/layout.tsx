@@ -8,8 +8,21 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Muaz Coway",
-  description: "Your Trusted Home Wellness Partner",
+  title: "Muaz Coway | Your Trusted Home Wellness Partner",
+  description:
+    "Muaz Coway provides Coway water purifiers, air purifiers, and wellness solutions with trusted service in Malaysia.",
+  keywords: [
+    "Muaz Coway",
+    "Coway Malaysia",
+    "Coway water filter",
+    "Coway service",
+  ],
+  openGraph: {
+    title: "Muaz Coway",
+    description: "Your Trusted Home Wellness Partner",
+    url: "https://muaz-coway.vercel.app",
+    siteName: "Muaz Coway",
+  },
 };
 
 export default function RootLayout({
