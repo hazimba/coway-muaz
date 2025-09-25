@@ -6,6 +6,7 @@ const Profile = () => {
     { link: "/sr-4.jpg", name: "Service 4" },
     { link: "/sr-2.jpg", name: "Service 2" },
     { link: "/sr-3.jpg", name: "Service 3" },
+    { link: "/sr-5.jpg", name: "Service 5" },
   ];
   return (
     <section
@@ -34,7 +35,7 @@ const Profile = () => {
         <div className="flex mt-8 gap-8 elipsis overflow-x-auto">
           {services.map((service, index) => (
             <Image
-              className="w-auto"
+              className="w-auto object-cover rounded-sm"
               src={service.link}
               alt={service.name}
               width={150}

@@ -126,7 +126,7 @@ const Product = () => {
               />
             </div>
 
-            <div className="flex gap-2 w-full px-6 justify-center items-center">
+            <div className="flex gap-2 w-full lg:px-6 px-4 justify-center items-center">
               <a
                 href={product.link}
                 className=""

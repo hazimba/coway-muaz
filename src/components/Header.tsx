@@ -35,6 +35,9 @@ const Header = () => {
             <Link href="#profile" className="text-sm">
               Profile
             </Link>
+            <Link href="#why-coway" className="text-sm">
+              Perks & Benefits
+            </Link>
             <Link href="#product" className="text-sm">
               Product
             </Link>
@@ -67,6 +70,9 @@ const Header = () => {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <Link href="#profile">Profile</Link>
+                </DropdownMenuItem>
+                <DropdownMenuItem>
+                  <Link href="#why-coway">Perks & Benefits</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Link href="#product">Product</Link>

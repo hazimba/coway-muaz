@@ -15,16 +15,16 @@ export function PromotionCarousel() {
       opts={{
         align: "center",
       }}
-      className="w-full max-w-sm lg:max-w-4xl"
+      className="w-full max-w-sm lg:max-w-5xl"
       plugins={[
         Autoplay({
-          delay: 4000,
+          delay: 3000,
         }),
       ]}
     >
       <CarouselContent className="-ml-4">
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex justify-center">
-          <div className="flex items-center relative w-72 h-48 lg:w-70 lg:h-70 w-60 h-40">
+          <div className="flex items-center relative w-72 h-48 lg:h-108">
             <Image
               sizes="lg"
               src="/product-1.jpeg"
@@ -35,10 +35,10 @@ export function PromotionCarousel() {
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex justify-center">
-          <div className="flex items-center relative w-72 h-48 lg:w-70 lg:h-70 w-60 h-40">
+          <div className="flex items-center relative w-72 h-48 lg:h-108">
             <Image
               sizes="lg"
-              src="/product-1.jpeg"
+              src="/product-2.jpeg"
               alt=""
               fill
               className="rounded-lg object-cover"
@@ -46,10 +46,10 @@ export function PromotionCarousel() {
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex justify-center">
-          <div className="flex items-center relative w-72 h-48 lg:w-70 lg:h-70 w-60 h-40">
+          <div className="flex items-center relative w-72 h-48 lg:h-108">
             <Image
               sizes="lg"
-              src="/product-1.jpeg"
+              src="/product-3.jpeg"
               alt=""
               fill
               className="rounded-lg object-cover"
@@ -57,10 +57,10 @@ export function PromotionCarousel() {
           </div>
         </CarouselItem>
         <CarouselItem className="md:basis-1/2 lg:basis-1/3 flex justify-center">
-          <div className="flex items-center relative w-72 h-48 lg:w-70 lg:h-70 w-60 h-40">
+          <div className="flex items-center relative w-72 h-48 lg:h-108">
             <Image
               sizes="lg"
-              src="/product-1.jpeg"
+              src="/product-4.jpeg"
               alt=""
               fill
               className="rounded-lg object-cover"
