@@ -24,13 +24,13 @@ const Profile = () => {
       <div>
         <h1 className="text-4xl font-bold mb-4">MUAZ MAAROF (HT001432)</h1>
         <div className="font-bold">YOUR COWAY PARTNER</div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
-          dolorum quasi laborum, laboriosam ratione qui animi reprehenderit
-          quod! Consequuntur officiis consectetur, animi nobis exercitationem
-          rem at placeat minima cupiditate laborum neque perspiciatis assumenda
-          impedit et ea, minus ipsam quia explicabo modi obcaecati ab officia
-          laudantium recusandae. Illo repudiandae eius modi.
+        <div className="text-sm lg:text-lg">
+          Is a dedicated Coway Service Professional for air conditioners,
+          mattresses, and massage chairs. Serving customers across Selangor and
+          supporting sales nationwide, he combines expertise with genuine care.
+          Muaz takes pride in helping families experience cleaner, healthier
+          living through Coway&apos;s trusted wellness solutions, delivered with
+          excellent service.
         </div>
         <div className="flex mt-8 gap-8 elipsis overflow-x-auto">
           {services.map((service, index) => (

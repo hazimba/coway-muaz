@@ -58,15 +58,18 @@ const WhyCoway = () => {
   return (
     <section id="why-coway" className="scroll-mt-22">
       <SplitSection title="Perks & Benefits" />
-      <div className="flex justify-center w-screen lg:py-24 py-16 px-2 ">
+      <div className="flex justify-center w-screen lg:py-24 py-16 px-4 ">
         <div className="max-w-5xl w-full flex justify-center items-center flex-col gap-10">
-          <div className="text-center">
-            Has been established worldwidely accross continent since 20XX, we
-            have known for our quality and services.
+          <div className="text-center lg:text-lg text-sm text-justify lg:text-center">
+            Established in 1989 and now serving customers worldwide, Coway is
+            recognized for its trusted quality and exceptional service. Since
+            entering Malaysia in 2006, Coway has grown to become a leading home
+            wellness brand, trusted by thousands of families nationwide for
+            cleaner water, fresher air, and healthier living.
           </div>
-          <div className="flex justify-center bg-gray-100 w-full rounded-lg">
+          <div className="flex justify-center border-1 w-full rounded-lg">
             {/* <PromotionCarousel /> */}
-            <div className="w-full h-96 overflow-y-scroll flex flex-col gap-10">
+            <div className="w-full h-96 overflow-y-scroll flex flex-col gap-4 lg:gap-10">
               {overflowScroll.map((item, index) => (
                 <div
                   key={index}

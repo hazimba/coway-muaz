@@ -76,13 +76,13 @@ const Product = () => {
     >
       <div className="absolute bottom-0 left-0 w-full bg-white" />
       <SplitSection title="Product" />
-      <div className="max-w-3xl mx-auto pt-16 px-4 lg:px-0 text-white text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat
-        quidem, reprehenderit quia consequatur sunt doloremque esse possimus!
-        Tempore similique quaerat libero odit doloremque modi fugit cumque
-        beatae ad numquam, omnis facilis ducimus adipisci reprehenderit culpa
-        deserunt vero explicabo amet molestias. Cumque perspiciatis fugiat,
-        molestias eum quam eos. Sunt, enim eligendi.
+      <div className="max-w-5xl lg:text-lg text-sm mx-auto pt-16 px-4 lg:px-0 text-white text-justify lg:text-center">
+        Coway offers a complete range of wellness solutions for your home,
+        including water and air purifiers, mattresses, air conditioners, and
+        massage chairs. Each product is designed with advanced technology,
+        eco-friendly features, and regular service care to ensure lasting
+        comfort, cleaner air, safer water, and better living for you and your
+        family.
       </div>
       <div className="flex max-w-6xl px-4 mx-auto py-12 grid grid-cols-1 lg:grid-cols-3 gap-4">
         {products.map((product) => (
