@@ -58,6 +58,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <meta name="application-name" content="Muaz Coway" />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body className={`${ubuntu.className} antialiased`}>{children}</body>
     </html>
   );
